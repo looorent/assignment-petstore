@@ -12,4 +12,12 @@
     <artifactId>petstore-rest</artifactId>
     <name>REST endpoints</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>petstore-domain</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

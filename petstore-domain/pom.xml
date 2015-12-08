@@ -12,5 +12,12 @@
     <artifactId>petstore-domain</artifactId>
     <name>Domain</name>
 
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>petstore-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
