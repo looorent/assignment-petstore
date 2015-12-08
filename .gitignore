@@ -1,0 +1,8 @@
+**/*.class
+**/target/
+**/*.iml
+.metadata
+**/*.log
+.idea/*
+!.idea/runConfigurations/
+
