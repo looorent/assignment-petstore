@@ -18,6 +18,12 @@
             <artifactId>petstore-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <!-- FOR JPA annotations and CDI -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
